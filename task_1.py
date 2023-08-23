@@ -24,3 +24,4 @@ def decode(arr: list) -> int:
 # тестовые данные
 print(decode([1, 2, 4, 2, 3, 3, 2, 9, 3, 99, 2, 1, 24]))
 print(decode([]))
+print(decode([1, 2, 4, 2, 3, 3, 2, 9, 3, 2, 99, 1]))
