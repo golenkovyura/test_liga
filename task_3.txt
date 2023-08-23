@@ -1,0 +1,14 @@
+1 запрос
+
+SELECT * 
+FROM Employees
+WHERE department_id IN (20, 30);
+
+
+
+2 запрос
+
+SELECT e.first_name, e.last_name, d.department_name
+FROM Employees AS e
+INNER JOIN Departments AS d
+ON e.department_id = d.department_id;
